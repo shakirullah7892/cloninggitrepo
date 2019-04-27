@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CloneGitCompComponent } from './clone-git-comp/clone-git-comp.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CloneGitCompComponent
   ],
   imports: [
     BrowserModule,
